@@ -10,7 +10,7 @@ def main():
     # 测试图片路径
     input_image = "demo.png"  # 请使用滑动验证码图片进行测试
     output_image = "output_detected.png"
-    threshold = 100  # 二值化阈值
+    threshold = 200  # 二值化阈值
     min_changes = 5  # 最小边缘变化次数
 
     try:

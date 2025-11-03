@@ -10,7 +10,7 @@ def main():
     # 测试图片路径（请替换为你的实际图片路径）
     input_image = "demo.png"  # 你需要准备一张测试图片
     output_image = "output_binary.png"
-    threshold = 100  # 二值化阈值
+    threshold = 200  # 二值化阈值
 
     try:
         print(f"\n使用阈值: {threshold}")
